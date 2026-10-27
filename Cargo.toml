@@ -1,0 +1,12 @@
+[package]
+name = "rs-proxy"
+version = "0.1.0"
+edition = "2021"
+description = "A small HTTP and HTTPS CONNECT proxy with allow and deny lists"
+license = "MIT"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+
+[dev-dependencies]
+
